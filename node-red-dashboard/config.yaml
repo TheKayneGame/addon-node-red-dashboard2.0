@@ -17,7 +17,7 @@ arch:
   - i386
 host_network: true
 hassio_api: true
-image: ghcr.io/thekaynegame/addon-node-red-dashboard2.0/{arch}
+image: ghcr.io/thekaynegame/node-red-dashboard2.0/{arch}
 options:
   node_red_ui_port: 1880
 schema:
