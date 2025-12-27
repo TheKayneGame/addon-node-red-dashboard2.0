@@ -1,5 +1,9 @@
 {
   "name": "Node-RED Dashboard Repository",
   "url": "https://github.com/thekaynegame/addon-node-red-dashboard2.0",
-  "maintainer": "Kayne"
+  "maintainer": "Kayne",
+  "addons": [
+    "node-red-dashboard"
+  ]
 }
+
