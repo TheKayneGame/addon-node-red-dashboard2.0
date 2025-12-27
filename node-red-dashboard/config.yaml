@@ -3,7 +3,7 @@ name: Node-RED Dashboard 2.0
 version: 2.0.0
 slug: node-red-dashboard
 description: Gain access to the Node-RED dashboard 2.0 from the sidebar
-url: https://github.com/TheKayneGame/addon-node-red-dashboard2.0
+url: https://github.com/thekaynegame/addon-node-red-dashboard2.0
 ingress: true
 ingress_port: 0
 panel_icon: mdi:view-dashboard-variant
@@ -17,7 +17,7 @@ arch:
   - i386
 host_network: true
 hassio_api: true
-image: ghcr.io/TheKayneGame/addon-node-red-dashboard2.0/{arch}
+image: ghcr.io/thekaynegame/addon-node-red-dashboard2.0/{arch}
 options:
   node_red_ui_port: 1880
 schema:
