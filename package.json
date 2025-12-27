@@ -1,5 +1,5 @@
 {
-  "name": "addon-node-red-dashboard",
+  "name": "addon-node-red-dashboard2.0",
   "version": "1.0.0",
   "description": "Gain access to the Node-RED dashboard from the sidebar",
   "main": "index.js",
