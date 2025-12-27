@@ -176,7 +176,7 @@ jobs:
           file: ${{ needs.information.outputs.target }}/Dockerfile
           cache-from: |
             type=local,src=/tmp/.docker-cache
-            ghcr.io/${{ toLower(github.repository_owner) }}/${{ needs.information.outputs.slug }}/${{ matrix.architecture }}:edge
+            ghcr.io/thekaynegame/${{ needs.information.outputs.slug }}/${{ matrix.architecture }}:edge
           cache-to: type=local,mode=max,dest=/tmp/.docker-cache-new
           platforms: ${{ steps.flags.outputs.platform }}
           build-args: |
@@ -196,3 +196,4 @@ jobs:
         run: |
           rm -rf /tmp/.docker-cache
           mv /tmp/.docker-cache-new /tmp/.docker-cache
+
