@@ -10,7 +10,10 @@ Gain access to the Node-RED dashboard 2.0 from Home Assistant sidebar
 
 Click the following button:
 
-[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FTheKayneGame%2Faddon-node-red-dashboard2.0)
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.][badge-img]][badge-link]
+
+[badge-img]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
+[badge-link]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FTheKayneGame%2Faddon-node-red-dashboard2.0
 
 Or:
 
@@ -36,3 +39,15 @@ Or:
 
 1. Click <kbd>Start</kbd>, give it a few seconds to spin up, and
    then click the <kbd>Open Web UI</kbd> button that appears.
+
+## CI notes
+
+- The GitHub Actions CI intentionally skips the `frenck/action-addon-linter` step on hosted runners due to Docker build compatibility issues observed in the action (pip/build failures when the action builds its container). To run the addon linter:
+  - Run it locally, or
+  - Use a self-hosted runner that has Docker available.
+
+- The CI was updated to:
+  - Fix Markdown line-length issues (MD013) by converting long inline badge URLs to reference-style links.
+  - Run Prettier via Node.js (setup + npm ci + npx prettier) to avoid "prettier: command not found" errors.
+
+If you want, I can add a CONTRIBUTING or CI document with exact commands to run the linter locally or the recommended self-hosted runner setup.
