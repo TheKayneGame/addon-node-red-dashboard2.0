@@ -30,7 +30,7 @@ jobs:
       description: ${{ steps.information.outputs.description }}
       environment: ${{ steps.release.outputs.environment }}
       name: ${{ steps.information.outputs.name }}
-      slug: "node-red-dashboard"
+      slug: "node-red-dashboard2.0"
       target: ${{ steps.information.outputs.target }}
       version: ${{ steps.release.outputs.version }}
     steps:
