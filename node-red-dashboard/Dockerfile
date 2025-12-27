@@ -9,6 +9,7 @@ WORKDIR /opt
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Setup base
+# hadolint ignore=DL3018
 RUN \
     apk add --no-cache \
         nginx \
