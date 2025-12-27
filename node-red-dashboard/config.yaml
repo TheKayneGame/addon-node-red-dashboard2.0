@@ -19,6 +19,6 @@ host_network: true
 hassio_api: true
 image: ghcr.io/regevbr/node-red-dashboard/{arch}
 options:
-  node_red_ui_port: 46836
+  node_red_ui_port: 1880
 schema:
   node_red_ui_port: int

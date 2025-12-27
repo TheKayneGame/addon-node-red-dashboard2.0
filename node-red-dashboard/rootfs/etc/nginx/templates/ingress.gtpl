@@ -8,7 +8,7 @@ server {
         allow   172.30.32.2;
         deny    all;
 
-        proxy_pass http://backend/endpoint/ui/;
+        proxy_pass http://backend/endpoint/dashboard/;
         proxy_intercept_errors on;
         error_page 301 302 307 = @handle_redirect;
     }

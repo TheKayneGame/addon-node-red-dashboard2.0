@@ -9,7 +9,7 @@ No need to open Node-RED webview port, just open the addon webview :-)
 Example add-on configuration:
 
 ```yaml
-node_red_ui_port: 46836
+node_red_ui_port: 1880
 ```
 
 ### Option: `node_red_ui_port`
