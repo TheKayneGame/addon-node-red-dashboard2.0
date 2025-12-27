@@ -1,8 +1,8 @@
 # Home Assistant Node-RED Dashboard addon
 
-Gain access to the Node-RED dashboard from Home Assistant sidebar
+Gain access to the Node-RED dashboard 2.0 from Home Assistant sidebar
 
-> No need to open Node-RED webview port
+> No need to open Node-RED 2.0 webview port
 
 ## Detailed installation instructions
 
@@ -10,8 +10,7 @@ Gain access to the Node-RED dashboard from Home Assistant sidebar
 
 Click the following button:
 
-[![Open your Home Assistant instance and show the add add-on repository
-dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fregevbr%2Faddon-node-red-dashboard)
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FTheKayneGame%2Faddon-node-red-dashboard2.0)
 
 Or:
 
@@ -21,7 +20,7 @@ Or:
 
 1. Click the 3-dots menu at upper right <kbd>...</kbd> > <kbd>Repositories</kbd>
    and add this repository's URL
-   [https://github.com/regevbr/addon-node-red-dashboard](https://github.com/regevbr/addon-node-red-dashboard)
+   [https://github.com/TheKayneGame/addon-node-red-dashboard2.0](https://github.com/TheKayneGame/addon-node-red-dashboard2.0)
    :
 
   <img src="images/add_ss.png" width="300"/>
@@ -29,7 +28,7 @@ Or:
 ### Install the addon
 
 1. Scroll down the page to find the new repository, and click
-   the new add-on named "Node-RED Dashboard"
+   the new add-on named "Node-RED Dashboard 2.0"
 
    <img src="images/repo_ss.png" width="429"/>
 

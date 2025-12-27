@@ -1,4 +1,4 @@
-# Home Assistant Add-on: Node Red Dashboard
+# Home Assistant Add-on: Node Red Dashboard 2.0
 
 No need to open Node-RED webview port, just open the addon webview :-)
 

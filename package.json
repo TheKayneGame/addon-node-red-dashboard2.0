@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/regevbr/addon-node-red-dashboard.git"
+    "url": "git+https://github.com/TheKayneGame/addon-node-red-dashboard2.0.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/regevbr/addon-node-red-dashboard/issues"
+    "url": "https://github.com/TheKayneGame/addon-node-red-dashboard2.0/issues"
   },
-  "homepage": "https://github.com/regevbr/addon-node-red-dashboard#readme",
+  "homepage": "https://github.com/TheKayneGame/addon-node-red-dashboard2.0#readme",
   "dependencies": {
     "prettier": "^2.5.1"
   }
