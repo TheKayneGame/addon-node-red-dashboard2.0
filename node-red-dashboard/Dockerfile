@@ -37,8 +37,8 @@ LABEL \
     org.opencontainers.image.title="Node-Red Dashboard" \
     org.opencontainers.image.description="Gain access to the Node-RED dashboard from the sidebar" \
     org.opencontainers.image.licenses="Apache-2.0" \
-    org.opencontainers.image.url="https://github.com/TheKayneGame/addon-node-red-dashboard2.0" \
-    org.opencontainers.image.source="https://github.com/TheKayneGame/addon-node-red-dashboard2.0" \
+    org.opencontainers.image.url="https://github.com/thekaynegame/addon-node-red-dashboard2.0" \
+    org.opencontainers.image.source="https://github.com/thekaynegame/addon-node-red-dashboard2.0" \
     org.opencontainers.image.created=${BUILD_DATE} \
     org.opencontainers.image.revision=${BUILD_REF} \
     org.opencontainers.image.version=${BUILD_VERSION}

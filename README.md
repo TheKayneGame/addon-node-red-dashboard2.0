@@ -13,7 +13,7 @@ Click the following button:
 [![Add repository][badge-img]][badge-link]
 
 [badge-img]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
-[badge-link]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FTheKayneGame%2Faddon-node-red-dashboard2.0
+[badge-link]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fthekaynegame%2Faddon-node-red-dashboard2.0
 
 Or:
 
@@ -23,7 +23,7 @@ Or:
 
 1. Click the 3-dots menu at upper right <kbd>...</kbd> > <kbd>Repositories</kbd>
    and add this repository's URL
-   [https://github.com/TheKayneGame/addon-node-red-dashboard2.0](https://github.com/TheKayneGame/addon-node-red-dashboard2.0)
+   [https://github.com/thekaynegame/addon-node-red-dashboard2.0](https://github.com/thekaynegame/addon-node-red-dashboard2.0)
    :
 
   <img src="images/add_ss.png" width="300"/>
